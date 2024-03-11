@@ -1,0 +1,43 @@
+.group {
+  background-color: #666;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  max-width: 700px;
+  min-width: 700px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.group__name {
+  font-size: 30px;
+}
+.group__block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.group__count span {
+  cursor: pointer;
+  font-size: 24px;
+}
+.group__count {
+  color: #999;
+}
+.group__count span,
+.group__type span {
+  color: #fff;
+}
+.group__type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #999;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
